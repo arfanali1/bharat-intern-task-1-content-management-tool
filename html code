@@ -1,0 +1,38 @@
+<body background="image/img4.jpeg">
+    <div class="top-section">
+        <div class="top">
+            <h1 class="cms" >Content Management System</h1>
+            <img src="image/blog5.jpg" >
+        </div>
+
+    </div>
+    <div class="card border  border-color">
+        <div>
+            <b><label class="font-color" for="title"> Post title:</label></b> <br />
+            <input class="input font-color " type="text" id="title" placeholder="Enter Post Title Here"> <br />
+            <b><label class="font-color" for="content">Post description:</label></b> <br />
+            <input  class="input font-color" id="content" placeholder="Enter Post Description Here" />
+        </div>
+
+        <div>
+            <b><label class="label-section font-color " for="image">Upload image here:</label></b>
+            <input style="color: black;" type="file" id="image" accept="image/*">
+        </div>
+
+        <div>
+            <b><label class="label-section font-color" for="video">Upload video here:</label></b>
+            <input style="color: black;" type="file" id="video" accept="video/*">
+        </div>
+    </div>
+
+    <div class="button-section">
+        <button onclick="submitForm()">SUBMIT</button>
+    </div>
+
+
+
+    <div class="data-container">
+        <div class="data-section" id="dataSection">
+        </div>
+    </div>
+</body>
